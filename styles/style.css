@@ -1,0 +1,121 @@
+@import url("https://necolas.github.io/normalize.css/latest/normalize.css");
+@import url("https://fonts.googleapis.com/css?family=Archivo+Narrow:400,700,700i");
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none; }
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font: 100% Archivo Narrow, sans-serif;
+  color: #333;
+  background: url(../img/sbg.png); }
+
+/*small reset*/
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0; }
+
+img {
+  max-width: 100%; }
+
+a {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+.center {
+  text-align: center; }
+
+/*header*/
+.nav {
+  width: 100%;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  /*border-bottom: 2px solid #5f5f5f;*/ }
+
+.nav a {
+  flex-grow: 1;
+  padding: 1.3em;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #ffecec;
+  text-shadow: 0px 2px 0px #333;
+  border-bottom: 6px solid #0000; }
+
+.nav a:hover {
+  border-bottom: 6px solid #00000070;
+  text-decoration: none; }
+
+.nav .nav-link1 {
+  background-color: #ff3434; }
+
+.nav .nav-link2 {
+  background-color: #ff9b03; }
+
+.nav .nav-link3 {
+  background-color: #e3e32a; }
+
+.nav .nav-link4 {
+  background-color: #8cfe8c; }
+
+.nav .nav-link5 {
+  background-color: #8c8cff; }
+
+.nav .nav-link6 {
+  background-color: #9236d6; }
+
+.nav .nav-link7 {
+  background-color: #ffaeff; }
+
+header {
+  width: 100%;
+  padding: 18em;
+  margin: 0px 0px 5px 0px;
+  -webkit-box-shadow: 0px 0px 6px 5px #9f9f9f;
+  box-shadow: 0px 0px 6px 5px #9f9f9f;
+  background: url(../img/header-bg.jpg); }
+
+header h1 {
+  display: block;
+  text-align: center;
+  color: #fff;
+  font-size: 7em;
+  text-shadow: 2px 8px 0px #333; }
+
+/*.nav {
+
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+
+		li {
+
+			display: inline-block;
+			flex-grow: 1;
+			text-align: center;
+			
+			
+			a {	
+				padding: 1em;
+			}
+		}
+
+	}
+
+}*/
