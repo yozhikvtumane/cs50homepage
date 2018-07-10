@@ -62,10 +62,10 @@ a:hover {
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-	flex-wrap: nowrap;
 
 		a {
 			flex-grow: 1;
+			flex-basis: auto;
 			padding: 1.3em;
 			text-align: center;
 			font-size: 1.5em;
@@ -177,14 +177,22 @@ footer {
 }
 
 
-/*@media queries*/
+/*media queries*/
 
 @media (max-width: 680px) {
 	#nav {
 		flex-wrap: wrap;
 		a {
-			padding: 0.3em;
-			/*flex-grow: 4;*/
+			padding: 1.2em 0.3em;
+			flex-basis: 50%;
+		}
+	}
+
+	header {
+		padding: 8em 0em;
+
+		h1 {
+			font-size: 4em;
 		}
 	}
 }

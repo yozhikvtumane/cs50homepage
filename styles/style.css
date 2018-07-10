@@ -38,11 +38,11 @@ a:hover {
   display: -moz-flex;
   display: -ms-flex;
   display: -o-flex;
-  display: flex;
-  flex-wrap: nowrap; }
+  display: flex; }
 
 #nav a {
   flex-grow: 1;
+  flex-basis: auto;
   padding: 1.3em;
   text-align: center;
   font-size: 1.5em;
@@ -141,10 +141,14 @@ footer ul li {
   display: inline-block;
   list-style-type: none; }
 
-/*@media queries*/
+/*media queries*/
 @media (max-width: 680px) {
   #nav {
     flex-wrap: wrap; }
   #nav a {
-    padding: 0.3em;
-    /*flex-grow: 4;*/ } }
+    padding: 1.2em 0.3em;
+    flex-basis: 50%; }
+  header {
+    padding: 8em 0em; }
+  header h1 {
+    font-size: 4em; } }
