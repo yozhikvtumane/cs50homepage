@@ -120,27 +120,26 @@ header {
 		color: #333;
 		text-shadow: 0px 2px 0px $white;
 	}
-}
 
-table {
-	max-width: 70%;
-	margin: 0 auto;
-	margin-bottom: 20px;
+	table {
+		max-width: 70%;
+		margin: 0 auto;
+		margin-bottom: 20px;
 
-	th {
-		text-align: left;
-		padding: 0.6em;
-		border-bottom: 1px solid $grey;
+		th {
+			text-align: left;
+			padding: 0.6em;
+			border-bottom: 1px solid $grey;
+		}
+
+		td {
+			padding: 0.6em;
+			border-bottom: 1px solid $grey;
+		}
+
 	}
 
-	td {
-		padding: 0.6em;
-		border-bottom: 1px solid $grey;
-	}
-
 }
-
-
 
 .devider {
 	width: 100%;
@@ -194,5 +193,11 @@ footer {
 		h1 {
 			font-size: 4em;
 		}
+	}
+	.main {
+		table {
+			min-width: 90%;
+		}
+		
 	}
 }
